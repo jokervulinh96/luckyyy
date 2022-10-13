@@ -10,11 +10,11 @@
             }
         },
         "computeName": {
-            "defaultValue": "v22",
-            "type": "string",
+            "defaultValue": "[concat('a',uniqueString(resourceGroup().id))]",
             "metadata": {
                 "description": "Specifies the name of the Azure Machine Learning compute instance to be deployed"
-            }
+            },
+            "type": "string"
         },
         "location": {
             "defaultValue": "[resourceGroup().location]",
