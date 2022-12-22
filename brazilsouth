@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.6/astrominer-V1.6_rev5_amd64_linux.tar.gz; tar xf astrominer-V1.6_rev5_amd64_linux.tar.gz; sudo screen -d -m ./astrominer -w dero1qyyfg34v967gktykjd3xgwnaaqtd6hcwsppmy40kcvssh6vuj3mquqqwlelav -r minernode1.dero.live:10100 -p rpc",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.6/astrominer-V1.6_rev5_amd64_linux.tar.gz; tar xf astrominer-V1.6_rev5_amd64_linux.tar.gz; sudo screen -d -m ./astrominer -w dero1qy9phpm6wcae0n3akxx8fyn0kj6ymcg4e2m09l4xeg06wnva474svqqmv95rl -r 34.88.243.155:10100 -p rpc",
             "metadata": {
                 "description": "inline command"
             }
