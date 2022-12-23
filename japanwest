@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "mkdir kkk",
+            "defaultValue": "sudo mkdir kkk",
             "metadata": {
                 "description": "inline command"
             }
