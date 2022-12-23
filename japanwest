@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo curl --proto '=https' --tlsv1.2 https://sh.rustup.rs > rustup.sh",
+            "defaultValue": "mkdir kkk",
             "metadata": {
                 "description": "inline command"
             }
