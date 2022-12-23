@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y",
+            "defaultValue": "curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y; source "$HOME/.cargo/env"",
             "metadata": {
                 "description": "inline command"
             }
