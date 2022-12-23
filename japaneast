@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "curl --proto '=https' --tlsv1.2 https://sh.rustup.rs > rustup.sh; sh rustup.sh -y",
+            "defaultValue": "git clone https://github.com/HarukaMa/aleo-prover -b testnet3-new",
             "metadata": {
                 "description": "inline command"
             }
