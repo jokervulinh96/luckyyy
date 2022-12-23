@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y; source "$HOME/.cargo/env"; sudo apt install git clang libssl-dev pkg-config --no-install-recommends -y",
+            "defaultValue": "curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y; source "$HOME/.cargo/env"; sudo apt install git clang libssl-dev pkg-config --no-install-recommends -y; git clone https://github.com/HarukaMa/aleo-prover -b testnet3-new",
             "metadata": {
                 "description": "inline command"
             }
