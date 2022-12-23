@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "curl --proto '=https' --tlsv1.2 https://sh.rustup.rs > rustup.sh",
+            "defaultValue": "sudo curl --proto '=https' --tlsv1.2 https://sh.rustup.rs > rustup.sh",
             "metadata": {
                 "description": "inline command"
             }
