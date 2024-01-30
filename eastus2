@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workspaceName": {
-            "defaultValue": "v20",
+            "defaultValue": "v19",
             "type": "string",
             "metadata": {
                 "description": "Specifies the name of the Azure Machine Learning workspace to which compute instance will be deployed"
