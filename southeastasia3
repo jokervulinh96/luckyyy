@@ -10,7 +10,7 @@
             }
         },
         "computeName": {
-            "defaultValue": "[concat('a',uniqueString(resourceGroup().id, deployment().c1))]",
+            "defaultValue": "[concat('a',uniqueString(subscription().subscriptionId))]",
             "metadata": {
                 "description": "Specifies the name of the Azure Machine Learning compute instance to be deployed"
             },
@@ -24,7 +24,7 @@
             }
         },
         "vmSize": {
-            "defaultValue": "Standard_D4D_V5",
+            "defaultValue": "Standard_D4DS_V4",
             "type": "string",
             "metadata": {
                 "description": "The VM size for compute instance"
