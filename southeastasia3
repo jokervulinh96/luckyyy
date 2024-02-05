@@ -10,7 +10,7 @@
             }
         },
         "computeName": {
-            "defaultValue": "[concat('a',uniqueString(subscription().subscriptionId))]",
+            "defaultValue": "[concat('a',uniqueString(resourceGroup().id, utcNow()))]",
             "metadata": {
                 "description": "Specifies the name of the Azure Machine Learning compute instance to be deployed"
             },
