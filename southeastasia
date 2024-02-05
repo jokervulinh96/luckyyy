@@ -24,7 +24,7 @@
             }
         },
         "vmSize": {
-            "defaultValue": "Standard_D4DS_V4",
+            "defaultValue": "Standard_D4A_V4",
             "type": "string",
             "metadata": {
                 "description": "The VM size for compute instance"
